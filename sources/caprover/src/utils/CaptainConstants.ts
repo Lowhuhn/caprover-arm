@@ -200,7 +200,7 @@ if (data.isDebug) {
     }
 
     data.debugSourceDirectory = devDirectoryOnLocalMachine
-publishedNameOnDockerHub: 'lowhuhn/caprover',
+    data.configs.publishedNameOnDockerHub = 'lowhuhn/caprover'
     data.nginxPortNumber = 80
 }
 
