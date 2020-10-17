@@ -28,7 +28,7 @@ DOCKERFILE_CAPROVER_PLACEHOLDER="Dockerfile.arm64v8"
 DOCKERFILE_CAPROVER="dockerfile-captain.release-arm64v8"
 
 #FOLDERS 
-TMP='tmp'
+TMP='sources'
 TMP_CAPROVER="$TMP/caprover"
 TMP_CERTBOT="$TMP/certbot"
 TMP_PLACEHOLDER="$TMP/placeholder"
