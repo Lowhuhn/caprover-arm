@@ -89,7 +89,7 @@ sed -i '.bak' \
     "s/.*appPlaceholderImageName.*/appPlaceholderImageName: \'${SED_DOCKER_CAPROVER_PLACEHOLDER}\',/" \
     "$TMP_CAPROVER/src/utils/CaptainConstants.ts" 
 sed -i '.bak' \
-    "s/.*certbotImageName.*/appPlaceholderImageName: \'${SED_DOCKER_CAPROVER_CERTBOT}\',/" \
+    "s/.*certbotImageName.*/certbotImageName: \'${SED_DOCKER_CAPROVER_CERTBOT}\',/" \
     "$TMP_CAPROVER/src/utils/CaptainConstants.ts" 
 sed -i '.bak' \
     "s/.*nginxImageName.*/nginxImageName: \'${SED_DOCKER_NGINX}\',/" \

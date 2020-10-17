@@ -123,7 +123,7 @@ let data = {
 
     // ********************* Local Docker Constants  ************************
 
-appPlaceholderImageName: 'lowhuhn/certbot-sleeping:arm64v8-v1.9.0',
+certbotImageName: 'lowhuhn/certbot-sleeping:arm64v8-v1.9.0',
 
     captainSaltSecretKey: 'captain-salt',
 
