@@ -1,0 +1,20 @@
+
+/coverage
+/temp_upload
+/currentdirectory
+/node_modules
+/built
+/dist-frontend
+
+version
+
+# JetBrains
+.idea
+
+# Debug log from npm
+npm-debug.log
+
+
+.DS_Store
+/.project
+
